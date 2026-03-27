@@ -47,7 +47,7 @@ func main() {
 		fmt.Println("3. Multiplication")
 		fmt.Println("4. Division")
 		fmt.Println("5. Exit")
-		fmt.Println("Help for Use Cases")
+		fmt.Println("help for Use cases")
 		fmt.Scan(&operation)
 
 		switch operation {
@@ -69,11 +69,11 @@ func main() {
 			return
 		case "help":
 			fmt.Println("USE CASE")
-			fmt.Println("1 For Addirion")
-			fmt.Println("2 For Subtraction")
-			fmt.Println("3 For Multiplication")
-			fmt.Println("4 For Addition")
-			fmt.Println("5 To Exit")
+			fmt.Println("Input 1 For Addirion")
+			fmt.Println("Input 2 For Subtraction")
+			fmt.Println("Input 3 For Multiplication")
+			fmt.Println("Input 4 For Addition")
+			fmt.Println("Input 5 To Exit")
 		
 		default:
 			fmt.Println("Not Supported")
