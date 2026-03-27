@@ -8,9 +8,9 @@ You'll be prompted to input your First Input Number and also your Second Input N
 
 ## Step 3:
 After the program recieves your inputed numbers you'll be prompted the operation you want to perform e.g (
-    Addition
-    Subtraction
-    Multiplication
-    Division
+    Addition,
+    Subtraction,
+    Multiplication,
+    Division,
 )
 And it will output the result in the CLI. You can perform multiple calculations as long as you don't opt for exit
