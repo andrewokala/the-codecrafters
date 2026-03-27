@@ -31,17 +31,17 @@ func main() {
 		fmt.Println("5. Exit")
 		fmt.Scan(&operation)
 
+		if operation > 5 {
+			fmt.Println("Invalid Input!!!!!")
+			break
+		}
+
 		if operation == 5 {
 			fmt.Println("Goodbye ROYALTY")
 			break
 		}
 
-		if operation != operation  {
-			fmt.Println("WE ONLY DO CALCULATIONS!!!!!")
-			continue
-		}
-
-		var input1, input2 int
+				var input1, input2 int
 		fmt.Println("Enter Input 1: ")
 		fmt.Scan(&input1)
 		fmt.Println("Enter Input 2: ")
@@ -56,6 +56,9 @@ func main() {
 			fmt.Println(mul(input1, input2))
 		case 4:
 			fmt.Println(div(input1, input2))
+		default:
+			fmt.Println("Not Supported")
+			continue
 		}
 	}
 
