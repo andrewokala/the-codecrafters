@@ -52,7 +52,6 @@ func main() {
 
 		switch operation {
 		case "1":
-			
 			fmt.Println(add(input1, input2))
 		case "2":
 			fmt.Println(sub(input1, input2))
