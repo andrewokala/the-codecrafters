@@ -69,7 +69,7 @@ func main() {
 			return
 		case "help":
 			fmt.Println("USE CASE")
-			fmt.Println("Input 1 For Addirion")
+			fmt.Println("Input 1 For Addition")
 			fmt.Println("Input 2 For Subtraction")
 			fmt.Println("Input 3 For Multiplication")
 			fmt.Println("Input 4 For Addition")
