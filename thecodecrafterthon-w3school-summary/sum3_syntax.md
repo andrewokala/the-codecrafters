@@ -7,13 +7,13 @@ In GO all files consist of the following parts:
 
 ## EXAMPLE
 
-package main
+`package main`
 
-import "fmt"
+`import "fmt"`
 
-func main() {
-    fmt.Println("Hello World")
-}
+`func main() {`
+    `fmt.Println("Hello World")`
+`}`
 
 1. Line 1: every GO program is part of a package. It's define with the package keyword
 
