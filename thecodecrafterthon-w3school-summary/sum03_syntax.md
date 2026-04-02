@@ -5,7 +5,7 @@ In GO all files consist of the following parts:
 3. Functions
 4. Statements and expressions
 
-### EXAMPLE
+***EXAMPLE***
 
 `package main`
 
@@ -25,10 +25,10 @@ In GO all files consist of the following parts:
 
 5. `fmt.Println()` is function available from the `fmt` package. It is used for output/print text.
 
-### NOTE
+***NOTE***
 In GO any executable code belongs to the main package.
 "
 
-## GO Statement
+### GO Statement
 
 `fmt.Println("Hello WOrld")` is a statement. In GO, statement are separated by ending a line (hitting the Enter key) or by semicolon `;`.

@@ -7,14 +7,14 @@ In GO, there are differet types of variables.
 3. `string`: store text, such as "Hello World". String values are surrounded by double quotes
 4. `bool`: store values with two states: true or false
 
-#### Declaring a Variable
+### Declaring a Variable
 There are two ways to declare variable in GO:
 1. With the `var` keyword
-e.g the syntax `var variablename = value`
+***e.g*** the syntax `var variablename = value`
 2. With the `:=` sign:
-e.g the syntax `variablename := value`. Note: in this case the type of the variable is inferred from the value(meaning the compiler decides the type of the variable, based on the value). It is not possible to declare a variable using  `:=` without assigning value to it.
+***e.g*** the syntax `variablename := value`. Note: in this case the type of the variable is inferred from the value(meaning the compiler decides the type of the variable, based on the value). It is not possible to declare a variable using  `:=` without assigning value to it.
 
-#### Difference Between var and :=
+### Difference Between var and :=
 1. `var` can be used inside and outside of a functions
 `:=` can only be used inside a function
 2. `var` Variable declaration and value assignment can be done sseparately
@@ -23,15 +23,16 @@ e.g the syntax `variablename := value`. Note: in this case the type of the varia
 ## GO Multiple Variable Declaration
 It is possible to declare multiple variables on the same line.
 
-e.g `var a, b, c, d int = 1, 2, 3, 4, 5`
+***e.g*** `var a, b, c, d int = 1, 2, 3, 4, 5`
 
 Note: If the `type` keyword is used, it is only possible to store one type of variable per line. If the `type` keyword is not used, you can store different type of variable per line.
 
-e.g `var a, b = 6, "Hello"`
+***e.g*** `var a, b = 6, "Hello"`
 
 ## GO Variable Declaration in Block
 Multiple variable declaration can be grouped together into a block for greater readability.
-e.g `var (`
+***e.g*** 
+    `var (`
     `a int`
     `b int = 1`
     `c string = "Hello"`
@@ -46,6 +47,9 @@ A variable can have a short name like x and y or more descriptive name like age,
 4. Variable names are case sensitive (age, Age and AGE are three different variables)
 
 There are several techniques you can use to make a variable name readable
-1. Camel Case: Each word, except the first starts with capital letter. e.g `myVariableName = "Andrew"`
-2. Pascal Case: Eacch words start with capital letter. e.g MyVariableName = "Andrew"
-3. Snake Case: Each word is separated by and underscore character. e.g my_variable_name = "Andrew"
+1. Camel Case: Each word, except the first starts with capital letter. 
+***e.g*** `myVariableName = "Andrew"`
+2. Pascal Case: Eacch words start with capital letter. 
+***e.g*** MyVariableName = "Andrew"
+3. Snake Case: Each word is separated by and underscore character. 
+***e.g*** my_variable_name = "Andrew"

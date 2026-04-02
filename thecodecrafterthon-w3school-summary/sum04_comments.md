@@ -4,13 +4,13 @@ GO supports single line or multi-line comments
 
 ### GO Single Line Comments
 Single line comments start with two forward slashes `//`
-##### Example:
+***Example:***
 `// This statement will print Hello World`
 `fmt.Println("Hello World")`
 
 ### GO Multi Line COomments
 Multi line comments start with `/*` and ends with `*/`
-##### Example:
+***Example:***
 `/* The statement below will print Hello World`
 `to the screen, and it is amazing*/`
 `fmt.Println("Hello World")`
