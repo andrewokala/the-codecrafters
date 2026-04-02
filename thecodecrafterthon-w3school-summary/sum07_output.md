@@ -40,7 +40,7 @@ Output:
 
 `Print()` inserts a space between the arguments if neither are strings:
 ***e.g***
-`var i,j = 10, 20
+`var i,j = 10, 20`
 `fmt.Print(i,j)`
 Output:
 `10 20`
