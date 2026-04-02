@@ -10,7 +10,7 @@ The `Print()` function prints its argument with their default format.
 `var i,j string = "Hello", "world"`
 `fmt.Print(i)`
 `fmt.Print(j)`
-Output: 
+***Output:*** 
 `HelloWorld`
 
 If we want to print arguments in new lines, we need to use `\n`
@@ -18,7 +18,7 @@ If we want to print arguments in new lines, we need to use `\n`
 `var i,j string = "Hello", "world"`
 `fmt.Print(i, "\n")`
 `fmt.Print(j, "\n")`
-Output: 
+***Output:***
 `Hello`
 `World`
 Tip: `\n` creates new lines
@@ -27,7 +27,7 @@ It is also possible to use only one Print() for printing multiple variables.
 ***e.g***
 `var i,j string = "Hello", "world"`
 `fmt.Print(i, "\n",j)`
-Output: 
+***Output:***
 `Hello`
 `World`
 
@@ -35,14 +35,14 @@ If we want to add a space between string arguments, we need to use  `" "`.
 ***e.g***
 `var i,j string = "Hello", "world"`
 `fmt.Print(i, " ", j)`
-Output:
+***Output:***
 `Hello World`
 
 `Print()` inserts a space between the arguments if neither are strings:
 ***e.g***
 `var i,j = 10, 20`
 `fmt.Print(i,j)`
-Output:
+***Output:***
 `10 20`
 
 #### The Println() Function
@@ -50,7 +50,7 @@ The `Println()` function is similar to `Print()` with the difference that a whit
 ***e.g***
 `var i,j string = "Hello", "world"`
 `fmt.Println(i,j)`
-Output: 
+***Output:***
 `Hello World`
 
 #### The Printf() Function
@@ -66,6 +66,6 @@ We use two formatting verbs:
 
 `fmt.Printf("i has value: %v and type: %T\n", i, i)`
 `fmt.Printf("j has value: %v and type: %T\n", j, j)`
-Output:
+***Output:***
 `i has value: Hello and type: string`
 `j has value: 5 and type: int`

@@ -4,7 +4,7 @@ The `const` keyword declares the variable as "constant" which means that it is u
 
 ### Syntax
 `const CONSTNAME type = value`
-Note: The value of a constant must be assign upon decclaration.
+***Note:*** The value of a constant must be assign upon decclaration.
 
 ### Constant Rules
 1. Constant names follow the same naming rules as variables
