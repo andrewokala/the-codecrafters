@@ -4,12 +4,12 @@ GO is an open source programming language, fast, statically typed and compiled a
 
 GO was developed by Google in 2007.
 
-## GO Use Cases
+### GO Use Cases
 1. Web Development in the Server side
 2. It is used for Network-based Programs
 3. It is used for Cloud-native Development
 
-## Why use GO?
+### Why use GO?
 1. Go has fast run time and compilation
 2. Go supports concurrency
 3. Go has memory management

@@ -20,7 +20,7 @@ There are two ways to declare variable in GO:
 2. `var` Variable declaration and value assignment can be done sseparately
 `:=` Variable declaration and value assignment cannot be done separately (must be done in the same line)
 
-## GO Multiple Variable Declaration
+### GO Multiple Variable Declaration
 It is possible to declare multiple variables on the same line.
 
 ***e.g*** `var a, b, c, d int = 1, 2, 3, 4, 5`
@@ -29,7 +29,7 @@ Note: If the `type` keyword is used, it is only possible to store one type of va
 
 ***e.g*** `var a, b = 6, "Hello"`
 
-## GO Variable Declaration in Block
+### GO Variable Declaration in Block
 Multiple variable declaration can be grouped together into a block for greater readability.
 ***e.g*** 
     `var (`
@@ -38,7 +38,7 @@ Multiple variable declaration can be grouped together into a block for greater r
     `c string = "Hello"`
     `)`
 
-## GO Variable Naming Rules
+### GO Variable Naming Rules
 A variable can have a short name like x and y or more descriptive name like age, price, carname, etc.
 
 1. A variable name must start with a letter or an underscore character(_)
