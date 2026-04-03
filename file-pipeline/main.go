@@ -1,3 +1,7 @@
+// CodeCrafters — Operation Gopher Protocol
+// Module: File Pipeline
+// Author: [Onminyi Andrew Okala]
+// Squad:  [The Interface]
 /*
 // ═══════════════════════════════════════════
 // SQUAD PIPELINE CONTRACT
