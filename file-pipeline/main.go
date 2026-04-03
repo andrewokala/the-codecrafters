@@ -42,12 +42,12 @@ import (
 func capToTitle(word string) string {
 	if word != "" {
 		words := strings.Fields(word)
-	for i, w := range words {
-		words[i] = strings.ToUpper(string(w[0])) + w[1:]
+		for i, w := range words {
+			words[i] = strings.ToUpper(string(w[0])) + w[1:]
+		}
+		return strings.Join(words, " ")
 	}
-	return strings.Join(words, " ")
-	}
-	return  word
+	return word
 }
 
 func lowerToUpper(word string) string {
@@ -68,9 +68,9 @@ func reverseStr(word string) string {
 	if strings.Contains(word, "REVERSE") {
 		words := strings.Fields(word)
 		for i, j := 0, len(words)-1; i < j; i, j = i+1, j-1 {
-		words[i], words[j] = words[j], words[i]
-	}
-	return strings.Join(words, " ")
+			words[i], words[j] = words[j], words[i]
+		}
+		return strings.Join(words, " ")
 	}
 	return word
 }

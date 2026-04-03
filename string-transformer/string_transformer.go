@@ -1,7 +1,7 @@
 // CodeCrafters — Operation Gopher Protocol
 // Module: String Transformer
-// Author: Stanley
-// Squad:  ---
+// Author: Onminyi Andrew Okala
+// Squad:  The Interface
 
 package main
 
