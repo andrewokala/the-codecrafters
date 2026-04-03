@@ -106,6 +106,7 @@ Syntax:
 The `range` keyword is used to more easily iterate through the elements of an array, slice or map. It returns both the index and the value.
 
 Syntax:
+
 `for index, value := range array|slice|map {`
 
 `code to be executed for each iteration`
